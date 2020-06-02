@@ -13,6 +13,43 @@ let firstName ="isael";
 
 let calling ="ringing";
 
+function double(x){
+  x = x *2;
+  return x;
+}
+
+// console.log(double(x));
+
+function triple(y){
+y = y *3;
+return y;
+}
+// console.log(triple(y));
+ 
+function square(squareTheNumber){
+  squareTheNumber = squareTheNumber * squareTheNumber;
+  return squareTheNumber;
+}
+// console.log(square(squareTheNumber));
+
+function beingNice(greeting){
+  greeting = greeting + " " +firstName;
+  return greeting; 
+}
+// console.log(beingNice(greeting));
+
+function fullName(firstName){
+  firstName = "not found";
+  return firstName;
+}
+// console.log(fullName(firstName));
+
+function phoneCall(calling){
+  phoneCall = "call ended";
+  return phoneCall;
+
+}
+//  console.log(phoneCall(calling));
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
